@@ -1,0 +1,249 @@
+h1 {
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #2E2E2E;
+}
+
+p {
+  text-align: center;
+  margin-top: -1.7em;
+  margin-bottom: 1em;
+  font-weight: 100;
+  font-size: 1em;
+  font-family: sans-serif;
+  color: #2E2E2E;
+}
+
+h2 {
+  float: left;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-top: -1em;
+  margin-left: 9em;
+  margin-right: 0em;
+  color: #2E2E2E;
+}
+
+h2:first-of-type {
+  margin-left: 8.5em;
+}
+
+h2:nth-child(2) {
+  margin-left: 8.2em;
+}
+
+h2:last-of-type {
+  margin-left: 6.3em;
+}
+
+.sleeptrack,
+.worktrack,
+.lessonstrack,
+.emotionstrack,
+.d3track {
+  position: absolute;
+  font-size: .4em;
+  top: 56em;
+}
+
+.sleeptrack {
+  left: 21em;
+}
+
+.worktrack {
+  left: 60.8em;
+}
+
+.lessonstrack {
+  left: 100em;
+}
+
+.emotionstrack {
+  top: 71.3em;
+  left: 23.6em;
+}
+
+.d3track {
+  top: 60em;
+  width: 25em;
+  left: 59em;
+}
+
+.axis {
+  font: 0.75em sans-serif;
+}
+
+.negative {
+  position: absolute;
+  top: 5.9em;
+  left: 7em;
+  font-size: .8em;
+}
+
+.negativeblock {
+  position: absolute;
+  top: 3.4em;
+  left: 4em;
+  padding: .5em .5em .5em .5em;
+  background: #4e1212;
+}
+
+.positive {
+  position: absolute;
+  top: 7.94em;
+  left: 7em;
+  font-size: .8em;
+}
+
+.positiveblock {
+  position: absolute;
+  top: 5em;
+  left: 4em;
+  padding: .5em .5em .5em .5em;
+  background: #357fc6;
+}
+
+
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #2E2E2E;
+  shape-rendering: crispEdges;
+}
+
+button {
+  float: left;
+  border-radius: 5%;
+  background-color: #b9c0c7;
+  border: none;
+  color: white;
+  padding: 0.9375em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 100;
+  outline: 0;
+}
+
+.updateWeek {
+  float: left;
+  background-color: #80858c;
+  color: white;
+  text-align: center;
+  width: 8em;
+  padding: 0.9375em;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+#happiness {
+  float: left;
+  width: 5em;
+  margin-top: 2em;
+  margin-left: 14em;
+  margin-right: .1em;
+}
+
+#sleepygraph {
+  float: left;
+  margin-left: 5.6em;
+}
+
+#workgraph {
+  float: left;
+}
+
+#controls {
+  margin-top: 1em;
+  margin-left: 38%;
+  width: 21.875em;
+}
+
+input {
+  margin-top: 4em;
+  margin-bottom: 1.25em;
+}
+
+input[type=range]{
+    width: 18.75em;
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 18.75em;
+    height: 0.3125em;
+    background: #ccc;
+    border: none;
+    border-radius: 0.1875em;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 1.875em;
+    width: 1.875em;
+    border-radius: 50%;
+    background: #357fc6;
+    margin-top: -0.75em;
+    cursor: pointer;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+#morning {
+  width: 4.5%;
+  padding-top: 1.5em;
+  margin-left: 12%;
+  margin-right: 1em;
+  float: left;
+}
+
+#eve {
+  padding-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 2%;
+}
+
+.conclusion {
+  margin-left: 10em;
+  background: #357fc6;
+}
+
+.notzerostate {
+  display: none;
+}
+
+.back {
+  float: left;
+  margin-left: 10em;
+  margin-top: 28em;
+}
+
+.notzerostate h1 {
+  margin-top: 1em;
+}
+
+#summary1 {
+  margin-top: -5em;
+  margin-left: 6.5em;
+  width: 45%;
+}
+
+/*#piechart {
+  width: 20em;
+  margin-left: 42.5%;
+  margin-top: 10em;
+}*/
